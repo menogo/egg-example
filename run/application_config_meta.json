@@ -1,0 +1,295 @@
+{
+  "keys": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/abwu/sendbox/egg-example/config/config.default.js"
+    },
+    "root": "/Users/abwu/sendbox/egg-example/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/abwu/sendbox/egg-example/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/abwu/sendbox/egg-example/node_modules/egg-view/config/config.default.js"
+  },
+  "news": {
+    "pageSize": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+    "serverUrl": "/Users/abwu/sendbox/egg-example/config/config.default.js"
+  },
+  "middleware": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+  "robot": {
+    "ua": "/Users/abwu/sendbox/egg-example/config/config.local.js"
+  },
+  "sequelize": {
+    "dialect": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+    "host": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+    "port": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+    "database": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+    "username": "/Users/abwu/sendbox/egg-example/config/config.default.js",
+    "password": "/Users/abwu/sendbox/egg-example/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/abwu/sendbox/egg-example/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/abwu/sendbox/egg-example/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/abwu/sendbox/egg-example/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/abwu/sendbox/egg-example/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/abwu/sendbox/egg-example/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/abwu/sendbox/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/abwu/sendbox/egg-example/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/abwu/sendbox/egg-example/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/abwu/sendbox/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/abwu/sendbox/egg-example/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/abwu/sendbox/egg-example/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/abwu/sendbox/egg-example/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/abwu/sendbox/egg-example/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/abwu/sendbox/egg-example/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/abwu/sendbox/egg-example/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/abwu/sendbox/egg-example/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/abwu/sendbox/egg-example/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/abwu/sendbox/egg-example/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/abwu/sendbox/egg-example/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/abwu/sendbox/egg-example/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/abwu/sendbox/egg-example/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/abwu/sendbox/egg-example/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/abwu/sendbox/egg-example/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/abwu/sendbox/egg-example/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/abwu/sendbox/egg-example/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/abwu/sendbox/egg-example/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/abwu/sendbox/egg-example/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/abwu/sendbox/egg-example/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/abwu/sendbox/egg-example/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/abwu/sendbox/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/abwu/sendbox/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/abwu/sendbox/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/abwu/sendbox/egg-example/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/abwu/sendbox/egg-example/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "env": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "name": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "version": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "description": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "main": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "dev": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "cov": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "debug": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "license": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "egg-router-plus": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "moment": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "strict": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "depth": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "env": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "level": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "logging": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "port": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/abwu/sendbox/egg-example/node_modules/egg/config/config.default.js"
+}

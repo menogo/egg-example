@@ -1,0 +1,1234 @@
+2019-09-11 17:21:32,004 ERROR 44294 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44294
+hostname: ABWU-MC0
+
+2019-09-11 17:22:22,075 ERROR 44358 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44358
+hostname: ABWU-MC0
+
+2019-09-11 17:26:42,635 ERROR 44701 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44701
+hostname: ABWU-MC0
+
+2019-09-11 17:27:04,170 ERROR 44752 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44752
+hostname: ABWU-MC0
+
+2019-09-12 10:17:48,419 ERROR 40219 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 40219
+hostname: ABWU-MC0
+
+2019-09-12 10:20:02,926 ERROR 40656 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 40656
+hostname: ABWU-MC0
+
+2019-09-12 10:35:52,170 ERROR 43310 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 43310
+hostname: ABWU-MC0
+
+2019-09-12 10:39:24,475 ERROR 43940 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 43940
+hostname: ABWU-MC0
+
+2019-09-12 10:41:18,719 ERROR 44173 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44173
+hostname: ABWU-MC0
+
+2019-09-12 10:41:35,124 ERROR 44193 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44193
+hostname: ABWU-MC0
+
+2019-09-12 10:41:51,752 ERROR 44233 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44233
+hostname: ABWU-MC0
+
+2019-09-12 10:44:10,994 ERROR 44605 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44605
+hostname: ABWU-MC0
+
+2019-09-12 10:44:56,316 ERROR 44704 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44704
+hostname: ABWU-MC0
+
+2019-09-12 10:45:14,765 ERROR 44743 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 44743
+hostname: ABWU-MC0
+
+2019-09-12 10:47:28,461 ERROR 45011 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 45011
+hostname: ABWU-MC0
+
+2019-09-12 10:47:32,059 ERROR 45018 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 45018
+hostname: ABWU-MC0
+
+2019-09-12 10:47:36,176 ERROR 45021 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 45021
+hostname: ABWU-MC0
+
+2019-09-12 10:48:38,055 ERROR 45211 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 45211
+hostname: ABWU-MC0
+
+2019-09-12 10:48:49,182 ERROR 45260 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)
+    at Promise.tap.then.catch.err (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:125:19)
+From previous event:
+    at ConnectionManager.connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:120:13)
+    at sequelize.runHooks.then (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:50)
+    at processImmediate (timers.js:637:19)
+From previous event:
+    at ConnectionManager._connect (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:311:8)
+    at ConnectionManager.getConnection (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:247:46)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:638:36)
+From previous event:
+    at Promise.resolve.retry (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:53)
+    at /Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (/Users/abwu/sendbox/egg-example/node_modules/retry-as-promised/index.js:60:10)
+    at Promise.try (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:629:30)
+From previous event:
+    at Sequelize.query (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:578:23)
+    at Sequelize.authenticate (/Users/abwu/sendbox/egg-example/node_modules/sequelize/lib/sequelize.js:890:17)
+    at authenticate (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:134:22)
+    at Promise.all.databases.map.database (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/abwu/sendbox/egg-example/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at processTicksAndRejections (internal/process/next_tick.js:74:9)
+    at process.runNextTicks [as _tickCallback] (internal/process/next_tick.js:51:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:804:11)
+    at internal/main/run_main_module.js:21:11
+name: "SequelizeAccessDeniedError"
+parent: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+original: {"code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}
+pid: 45260
+hostname: ABWU-MC0
+
+2019-09-12 10:54:26,879 INFO 46538 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 10:54:36,757 ERROR 46538 [-/127.0.0.1/-/2ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:13:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 46538
+hostname: ABWU-MC0
+
+2019-09-12 10:58:01,651 INFO 47069 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 10:58:06,061 INFO 47070 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 10:58:18,979 ERROR 47070 [-/127.0.0.1/-/6ms GET /users] nodejs.ReferenceError: ctx is not defined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:11:21)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 47070
+hostname: ABWU-MC0
+
+2019-09-12 10:58:50,774 ERROR 47070 [-/127.0.0.1/-/1ms GET /users?name=11] nodejs.ReferenceError: ctx is not defined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:11:21)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 47070
+hostname: ABWU-MC0
+
+2019-09-12 10:59:20,950 INFO 47262 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 10:59:21,892 ERROR 47262 [-/127.0.0.1/-/10ms GET /users?name=11] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:14:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 47262
+hostname: ABWU-MC0
+
+2019-09-12 10:59:21,867 INFO 47263 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:08:06,026 INFO 48500 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:10:20,625 INFO 48805 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:10:42,616 ERROR 48805 [-/127.0.0.1/-/5029ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/abwu/sendbox/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5018,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 48805
+hostname: ABWU-MC0
+
+2019-09-12 11:11:03,292 ERROR 48805 [-/127.0.0.1/-/5003ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/abwu/sendbox/egg-example/node_modules/urllib/lib/urllib.js:926:15)
+    at listOnTimeout (timers.js:327:15)
+    at processTimers (timers.js:271:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5002,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 48805
+hostname: ABWU-MC0
+
+2019-09-12 11:11:04,050 ERROR 48805 [-/127.0.0.1/-/8ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:14:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 48805
+hostname: ABWU-MC0
+
+2019-09-12 11:11:24,822 INFO 48934 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:11:25,766 INFO 48935 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:11:26,687 ERROR 48935 [-/127.0.0.1/-/13ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:14:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 48935
+hostname: ABWU-MC0
+
+2019-09-12 11:13:42,005 INFO 49248 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:13:46,654 INFO 49280 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:13:57,812 INFO 49344 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:14:05,336 ERROR 49344 [-/127.0.0.1/-/7ms GET /users] nodejs.TypeError: Cannot read property 'User' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:13:37)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 49344
+hostname: ABWU-MC0
+
+2019-09-12 11:14:20,220 INFO 49388 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:14:25,130 INFO 49402 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:15:07,879 INFO 49470 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:15:40,860 INFO 49524 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:15:41,755 INFO 49527 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:15:45,946 INFO 49569 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:15:48,337 ERROR 49569 [-/127.0.0.1/-/7ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:13:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 49569
+hostname: ABWU-MC0
+
+2019-09-12 11:16:22,076 INFO 49647 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:16:31,294 INFO 49661 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:16:38,465 ERROR 49661 [-/127.0.0.1/-/14ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 49661
+hostname: ABWU-MC0
+
+2019-09-12 11:19:18,165 INFO 50086 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:19:19,078 INFO 50087 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:19:23,132 ERROR 50087 [-/127.0.0.1/-/13ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 50087
+hostname: ABWU-MC0
+
+2019-09-12 11:20:40,501 INFO 50292 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:20:47,024 INFO 50314 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:20:47,986 INFO 50315 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:21:22,729 INFO 50389 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:21:23,639 INFO 50391 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:21:29,618 ERROR 50391 [-/127.0.0.1/-/13ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 50391
+hostname: ABWU-MC0
+
+2019-09-12 11:22:44,849 INFO 50584 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:22:45,795 INFO 50586 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:22:46,858 ERROR 50586 [-/127.0.0.1/-/16ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 50586
+hostname: ABWU-MC0
+
+2019-09-12 11:22:48,162 ERROR 50586 [-/127.0.0.1/-/1ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 50586
+hostname: ABWU-MC0
+
+2019-09-12 11:23:52,430 INFO 50727 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:23:56,076 INFO 50740 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:23:56,836 ERROR 50740 [-/127.0.0.1/-/11ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 50740
+hostname: ABWU-MC0
+
+2019-09-12 11:27:58,516 INFO 51336 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:33:12,286 INFO 52045 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:33:14,321 ERROR 52045 [-/127.0.0.1/-/7ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 52045
+hostname: ABWU-MC0
+
+2019-09-12 11:33:45,042 INFO 52163 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:33:45,238 ERROR 52163 [-/127.0.0.1/-/8ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 52163
+hostname: ABWU-MC0
+
+2019-09-12 11:34:13,004 INFO 52239 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:34:14,419 ERROR 52239 [-/127.0.0.1/-/18ms GET /users] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserController.index (/Users/abwu/sendbox/egg-example/app/controller/users.js:15:41)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/abwu/sendbox/egg-example/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:45:18)
+    at /Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:44:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at robotMiddleware (/Users/abwu/sendbox/egg-example/app/middleware/robot.js:13:19)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/abwu/sendbox/egg-example/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/abwu/sendbox/egg-example/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/abwu/sendbox/egg-example/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/abwu/sendbox/egg-example/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 52239
+hostname: ABWU-MC0
+
+2019-09-12 11:36:15,020 INFO 52489 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:36:33,227 INFO 52489 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 11:41:21,898 INFO 53175 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:41:22,991 INFO 53175 [egg-sequelize](7ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 11:41:44,845 INFO 53224 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 11:41:46,052 INFO 53224 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:12:07,820 INFO 53224 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:12:52,299 INFO 73611 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 14:12:57,054 INFO 73611 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:18:07,759 INFO 74330 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 14:19:03,806 INFO 74330 [egg-sequelize](2ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:21:06,771 INFO 74760 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 14:21:17,446 INFO 74760 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:30:52,608 INFO 76384 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 14:31:15,550 INFO 76384 [egg-sequelize](4ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:31:18,475 INFO 76384 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:31:20,216 INFO 76384 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:32:15,986 INFO 76613 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 14:32:18,258 INFO 76613 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:32:19,291 INFO 76613 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:32:26,224 INFO 76613 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 14:33:31,509 INFO 76613 [egg-sequelize](0ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 15:48:00,626 INFO 88255 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 15:50:32,132 INFO 88653 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 15:50:37,112 INFO 88653 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 15:50:38,256 INFO 88653 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 15:50:56,328 INFO 88730 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 15:50:58,343 INFO 88731 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 15:51:01,041 INFO 88732 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 15:51:01,445 INFO 88732 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 15:53:59,912 INFO 89137 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 16:01:15,039 INFO 91111 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 16:01:22,105 INFO 91111 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 16:02:27,846 INFO 91493 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 16:02:32,968 INFO 91493 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 16:02:52,517 INFO 91493 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 16:19:25,444 INFO 94036 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 16:19:40,802 INFO 94221 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 16:20:04,323 INFO 94221 [egg-sequelize](3ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 16:20:21,362 INFO 94221 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 16:27:54,578 INFO 95432 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2019-09-12 16:27:55,778 INFO 95432 [egg-sequelize](5ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;
+2019-09-12 16:29:23,681 INFO 95432 [egg-sequelize](1ms) Executed (default): SELECT `id`, `name`, `age`, `created_at`, `updated_at`, `created_at` AS `createdAt`, `updated_at` AS `updatedAt` FROM `users` AS `user`;

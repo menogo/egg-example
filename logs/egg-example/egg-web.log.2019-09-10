@@ -1,0 +1,496 @@
+2019-09-10 17:05:50,787 INFO 2355 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"unittest","level":"INFO","consoleLevel":"WARN","disableConsoleAfterReady":false,"outputJSON":false,"buffer":false,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 17:05:50,792 INFO 2355 [egg-multipart] stream mode enable
+2019-09-10 17:05:50,842 INFO 2355 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 17:05:50,844 INFO 2355 [egg-security] use csrf middleware
+2019-09-10 17:05:50,845 INFO 2355 [egg-security] use methodnoallow middleware
+2019-09-10 17:05:50,845 INFO 2355 [egg-security] use noopen middleware
+2019-09-10 17:05:50,846 INFO 2355 [egg-security] use nosniff middleware
+2019-09-10 17:05:50,846 INFO 2355 [egg-security] use xssProtection middleware
+2019-09-10 17:05:50,847 INFO 2355 [egg-security] use xframe middleware
+2019-09-10 17:05:50,847 INFO 2355 [egg-security] use dta middleware
+2019-09-10 17:05:50,847 INFO 2355 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 17:05:50,856 INFO 2355 [egg:core] dump config after load, 4ms
+2019-09-10 17:05:50,867 INFO 2355 [egg-watcher:application] watcher start success
+2019-09-10 17:05:50,870 INFO 2355 [egg:core] dump config after ready, 2ms
+2019-09-10 17:11:09,121 INFO 2885 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 17:11:09,149 INFO 2885 [egg-multipart] stream mode enable
+2019-09-10 17:11:09,204 INFO 2885 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 17:11:09,206 INFO 2885 [egg-security] use csrf middleware
+2019-09-10 17:11:09,207 INFO 2885 [egg-security] use methodnoallow middleware
+2019-09-10 17:11:09,207 INFO 2885 [egg-security] use noopen middleware
+2019-09-10 17:11:09,208 INFO 2885 [egg-security] use nosniff middleware
+2019-09-10 17:11:09,208 INFO 2885 [egg-security] use xssProtection middleware
+2019-09-10 17:11:09,209 INFO 2885 [egg-security] use xframe middleware
+2019-09-10 17:11:09,209 INFO 2885 [egg-security] use dta middleware
+2019-09-10 17:11:09,209 INFO 2885 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 17:11:09,217 INFO 2885 [egg:core] dump config after load, 4ms
+2019-09-10 17:11:09,227 INFO 2885 [egg-watcher:application] watcher start success
+2019-09-10 17:11:09,232 INFO 2885 [egg:core] dump config after ready, 4ms
+2019-09-10 17:21:04,538 INFO 4355 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 17:21:04,565 INFO 4355 [egg-multipart] stream mode enable
+2019-09-10 17:21:04,621 INFO 4355 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 17:21:04,623 INFO 4355 [egg-security] use csrf middleware
+2019-09-10 17:21:04,624 INFO 4355 [egg-security] use methodnoallow middleware
+2019-09-10 17:21:04,624 INFO 4355 [egg-security] use noopen middleware
+2019-09-10 17:21:04,625 INFO 4355 [egg-security] use nosniff middleware
+2019-09-10 17:21:04,626 INFO 4355 [egg-security] use xssProtection middleware
+2019-09-10 17:21:04,626 INFO 4355 [egg-security] use xframe middleware
+2019-09-10 17:21:04,627 INFO 4355 [egg-security] use dta middleware
+2019-09-10 17:21:04,627 INFO 4355 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 17:21:04,635 INFO 4355 [egg:core] dump config after load, 4ms
+2019-09-10 17:21:04,647 INFO 4355 [egg-watcher:application] watcher start success
+2019-09-10 17:21:04,651 INFO 4355 [egg:core] dump config after ready, 3ms
+2019-09-10 18:55:56,401 INFO 12175 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 18:55:56,424 INFO 12175 [egg-multipart] stream mode enable
+2019-09-10 18:55:56,474 INFO 12175 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 18:55:56,476 INFO 12175 [egg-security] use csrf middleware
+2019-09-10 18:55:56,477 INFO 12175 [egg-security] use methodnoallow middleware
+2019-09-10 18:55:56,477 INFO 12175 [egg-security] use noopen middleware
+2019-09-10 18:55:56,478 INFO 12175 [egg-security] use nosniff middleware
+2019-09-10 18:55:56,478 INFO 12175 [egg-security] use xssProtection middleware
+2019-09-10 18:55:56,479 INFO 12175 [egg-security] use xframe middleware
+2019-09-10 18:55:56,479 INFO 12175 [egg-security] use dta middleware
+2019-09-10 18:55:56,479 INFO 12175 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 18:55:56,488 INFO 12175 [egg:core] dump config after load, 5ms
+2019-09-10 18:55:56,498 INFO 12175 [egg-watcher:application] watcher start success
+2019-09-10 18:55:56,504 INFO 12175 [egg:core] dump config after ready, 4ms
+2019-09-10 18:58:23,699 INFO 12417 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 18:58:23,721 INFO 12417 [egg-multipart] stream mode enable
+2019-09-10 18:58:23,749 INFO 12417 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 18:58:23,751 INFO 12417 [egg-security] use csrf middleware
+2019-09-10 18:58:23,751 INFO 12417 [egg-security] use methodnoallow middleware
+2019-09-10 18:58:23,752 INFO 12417 [egg-security] use noopen middleware
+2019-09-10 18:58:23,752 INFO 12417 [egg-security] use nosniff middleware
+2019-09-10 18:58:23,752 INFO 12417 [egg-security] use xssProtection middleware
+2019-09-10 18:58:23,752 INFO 12417 [egg-security] use xframe middleware
+2019-09-10 18:58:23,753 INFO 12417 [egg-security] use dta middleware
+2019-09-10 18:58:23,753 INFO 12417 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 18:58:23,760 INFO 12417 [egg:core] dump config after load, 4ms
+2019-09-10 18:58:23,770 INFO 12417 [egg-watcher:application] watcher start success
+2019-09-10 18:58:23,775 INFO 12417 [egg:core] dump config after ready, 3ms
+2019-09-10 18:59:13,780 INFO 12514 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 18:59:13,803 INFO 12514 [egg-multipart] stream mode enable
+2019-09-10 18:59:13,833 INFO 12514 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 18:59:13,835 INFO 12514 [egg-security] use csrf middleware
+2019-09-10 18:59:13,835 INFO 12514 [egg-security] use methodnoallow middleware
+2019-09-10 18:59:13,836 INFO 12514 [egg-security] use noopen middleware
+2019-09-10 18:59:13,836 INFO 12514 [egg-security] use nosniff middleware
+2019-09-10 18:59:13,836 INFO 12514 [egg-security] use xssProtection middleware
+2019-09-10 18:59:13,836 INFO 12514 [egg-security] use xframe middleware
+2019-09-10 18:59:13,837 INFO 12514 [egg-security] use dta middleware
+2019-09-10 18:59:13,837 INFO 12514 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 18:59:13,844 INFO 12514 [egg:core] dump config after load, 4ms
+2019-09-10 18:59:13,854 INFO 12514 [egg-watcher:application] watcher start success
+2019-09-10 18:59:13,858 INFO 12514 [egg:core] dump config after ready, 2ms
+2019-09-10 19:19:22,493 INFO 15520 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:19:22,514 INFO 15520 [egg-multipart] stream mode enable
+2019-09-10 19:19:22,562 INFO 15520 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:19:22,564 INFO 15520 [egg-security] use csrf middleware
+2019-09-10 19:19:22,564 INFO 15520 [egg-security] use methodnoallow middleware
+2019-09-10 19:19:22,565 INFO 15520 [egg-security] use noopen middleware
+2019-09-10 19:19:22,565 INFO 15520 [egg-security] use nosniff middleware
+2019-09-10 19:19:22,566 INFO 15520 [egg-security] use xssProtection middleware
+2019-09-10 19:19:22,566 INFO 15520 [egg-security] use xframe middleware
+2019-09-10 19:19:22,567 INFO 15520 [egg-security] use dta middleware
+2019-09-10 19:19:22,567 INFO 15520 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:19:22,577 INFO 15520 [egg:core] dump config after load, 6ms
+2019-09-10 19:19:22,591 INFO 15520 [egg-watcher:application] watcher start success
+2019-09-10 19:19:22,595 INFO 15520 [egg:core] dump config after ready, 3ms
+2019-09-10 19:19:36,341 INFO 15520 [egg-view-nunjucks] loading templates from ["/Users/abwu/sendbox/egg-example/app/view"]
+2019-09-10 19:20:12,609 INFO 15594 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:20:12,631 INFO 15594 [egg-multipart] stream mode enable
+2019-09-10 19:20:12,660 INFO 15594 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:20:12,662 INFO 15594 [egg-security] use csrf middleware
+2019-09-10 19:20:12,662 INFO 15594 [egg-security] use methodnoallow middleware
+2019-09-10 19:20:12,662 INFO 15594 [egg-security] use noopen middleware
+2019-09-10 19:20:12,663 INFO 15594 [egg-security] use nosniff middleware
+2019-09-10 19:20:12,663 INFO 15594 [egg-security] use xssProtection middleware
+2019-09-10 19:20:12,663 INFO 15594 [egg-security] use xframe middleware
+2019-09-10 19:20:12,663 INFO 15594 [egg-security] use dta middleware
+2019-09-10 19:20:12,663 INFO 15594 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:20:12,670 INFO 15594 [egg:core] dump config after load, 3ms
+2019-09-10 19:20:12,679 INFO 15594 [egg-watcher:application] watcher start success
+2019-09-10 19:20:12,684 INFO 15594 [egg:core] dump config after ready, 3ms
+2019-09-10 19:20:21,432 INFO 15594 [egg-view-nunjucks] loading templates from ["/Users/abwu/sendbox/egg-example/app/view"]
+2019-09-10 19:20:38,661 INFO 15729 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:20:38,691 INFO 15729 [egg-multipart] stream mode enable
+2019-09-10 19:20:38,732 INFO 15729 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:20:38,734 INFO 15729 [egg-security] use csrf middleware
+2019-09-10 19:20:38,734 INFO 15729 [egg-security] use methodnoallow middleware
+2019-09-10 19:20:38,735 INFO 15729 [egg-security] use noopen middleware
+2019-09-10 19:20:38,735 INFO 15729 [egg-security] use nosniff middleware
+2019-09-10 19:20:38,735 INFO 15729 [egg-security] use xssProtection middleware
+2019-09-10 19:20:38,736 INFO 15729 [egg-security] use xframe middleware
+2019-09-10 19:20:38,736 INFO 15729 [egg-security] use dta middleware
+2019-09-10 19:20:38,736 INFO 15729 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:20:38,746 INFO 15729 [egg:core] dump config after load, 6ms
+2019-09-10 19:20:38,758 INFO 15729 [egg-watcher:application] watcher start success
+2019-09-10 19:20:38,764 INFO 15729 [egg:core] dump config after ready, 4ms
+2019-09-10 19:20:39,346 INFO 15730 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:20:39,370 INFO 15730 [egg-multipart] stream mode enable
+2019-09-10 19:20:39,404 INFO 15730 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:20:39,406 INFO 15730 [egg-security] use csrf middleware
+2019-09-10 19:20:39,407 INFO 15730 [egg-security] use methodnoallow middleware
+2019-09-10 19:20:39,407 INFO 15730 [egg-security] use noopen middleware
+2019-09-10 19:20:39,408 INFO 15730 [egg-security] use nosniff middleware
+2019-09-10 19:20:39,408 INFO 15730 [egg-security] use xssProtection middleware
+2019-09-10 19:20:39,408 INFO 15730 [egg-security] use xframe middleware
+2019-09-10 19:20:39,408 INFO 15730 [egg-security] use dta middleware
+2019-09-10 19:20:39,408 INFO 15730 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:20:39,416 INFO 15730 [egg:core] dump config after load, 4ms
+2019-09-10 19:20:39,427 INFO 15730 [egg-watcher:application] watcher start success
+2019-09-10 19:20:39,432 INFO 15730 [egg:core] dump config after ready, 3ms
+2019-09-10 19:20:41,366 INFO 15730 [egg-view-nunjucks] loading templates from ["/Users/abwu/sendbox/egg-example/app/view"]
+2019-09-10 19:21:10,615 INFO 15761 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:21:10,640 INFO 15761 [egg-multipart] stream mode enable
+2019-09-10 19:21:10,672 INFO 15761 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:21:10,673 INFO 15761 [egg-security] use csrf middleware
+2019-09-10 19:21:10,674 INFO 15761 [egg-security] use methodnoallow middleware
+2019-09-10 19:21:10,674 INFO 15761 [egg-security] use noopen middleware
+2019-09-10 19:21:10,674 INFO 15761 [egg-security] use nosniff middleware
+2019-09-10 19:21:10,675 INFO 15761 [egg-security] use xssProtection middleware
+2019-09-10 19:21:10,675 INFO 15761 [egg-security] use xframe middleware
+2019-09-10 19:21:10,675 INFO 15761 [egg-security] use dta middleware
+2019-09-10 19:21:10,675 INFO 15761 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:21:10,684 INFO 15761 [egg:core] dump config after load, 4ms
+2019-09-10 19:21:10,694 INFO 15761 [egg-watcher:application] watcher start success
+2019-09-10 19:21:10,699 INFO 15761 [egg:core] dump config after ready, 4ms
+2019-09-10 19:21:31,456 INFO 15791 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:21:31,482 INFO 15791 [egg-multipart] stream mode enable
+2019-09-10 19:21:31,534 INFO 15791 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:21:31,536 INFO 15791 [egg-security] use csrf middleware
+2019-09-10 19:21:31,537 INFO 15791 [egg-security] use methodnoallow middleware
+2019-09-10 19:21:31,537 INFO 15791 [egg-security] use noopen middleware
+2019-09-10 19:21:31,538 INFO 15791 [egg-security] use nosniff middleware
+2019-09-10 19:21:31,539 INFO 15791 [egg-security] use xssProtection middleware
+2019-09-10 19:21:31,539 INFO 15791 [egg-security] use xframe middleware
+2019-09-10 19:21:31,540 INFO 15791 [egg-security] use dta middleware
+2019-09-10 19:21:31,540 INFO 15791 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:21:31,549 INFO 15791 [egg:core] dump config after load, 3ms
+2019-09-10 19:21:31,559 INFO 15791 [egg-watcher:application] watcher start success
+2019-09-10 19:21:31,565 INFO 15791 [egg:core] dump config after ready, 4ms
+2019-09-10 19:22:37,334 INFO 15888 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:22:37,356 INFO 15888 [egg-multipart] stream mode enable
+2019-09-10 19:22:37,390 INFO 15888 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:22:37,392 INFO 15888 [egg-security] use csrf middleware
+2019-09-10 19:22:37,393 INFO 15888 [egg-security] use methodnoallow middleware
+2019-09-10 19:22:37,393 INFO 15888 [egg-security] use noopen middleware
+2019-09-10 19:22:37,393 INFO 15888 [egg-security] use nosniff middleware
+2019-09-10 19:22:37,394 INFO 15888 [egg-security] use xssProtection middleware
+2019-09-10 19:22:37,394 INFO 15888 [egg-security] use xframe middleware
+2019-09-10 19:22:37,394 INFO 15888 [egg-security] use dta middleware
+2019-09-10 19:22:37,394 INFO 15888 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:22:37,402 INFO 15888 [egg:core] dump config after load, 4ms
+2019-09-10 19:22:37,413 INFO 15888 [egg-watcher:application] watcher start success
+2019-09-10 19:22:37,417 INFO 15888 [egg:core] dump config after ready, 3ms
+2019-09-10 19:22:47,025 INFO 15922 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:22:47,049 INFO 15922 [egg-multipart] stream mode enable
+2019-09-10 19:22:47,082 INFO 15922 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:22:47,083 INFO 15922 [egg-security] use csrf middleware
+2019-09-10 19:22:47,084 INFO 15922 [egg-security] use methodnoallow middleware
+2019-09-10 19:22:47,084 INFO 15922 [egg-security] use noopen middleware
+2019-09-10 19:22:47,084 INFO 15922 [egg-security] use nosniff middleware
+2019-09-10 19:22:47,085 INFO 15922 [egg-security] use xssProtection middleware
+2019-09-10 19:22:47,085 INFO 15922 [egg-security] use xframe middleware
+2019-09-10 19:22:47,085 INFO 15922 [egg-security] use dta middleware
+2019-09-10 19:22:47,085 INFO 15922 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:22:47,093 INFO 15922 [egg:core] dump config after load, 4ms
+2019-09-10 19:22:47,103 INFO 15922 [egg-watcher:application] watcher start success
+2019-09-10 19:22:47,108 INFO 15922 [egg:core] dump config after ready, 4ms
+2019-09-10 19:22:47,666 INFO 15923 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:22:47,692 INFO 15923 [egg-multipart] stream mode enable
+2019-09-10 19:22:47,728 INFO 15923 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:22:47,730 INFO 15923 [egg-security] use csrf middleware
+2019-09-10 19:22:47,730 INFO 15923 [egg-security] use methodnoallow middleware
+2019-09-10 19:22:47,730 INFO 15923 [egg-security] use noopen middleware
+2019-09-10 19:22:47,731 INFO 15923 [egg-security] use nosniff middleware
+2019-09-10 19:22:47,731 INFO 15923 [egg-security] use xssProtection middleware
+2019-09-10 19:22:47,731 INFO 15923 [egg-security] use xframe middleware
+2019-09-10 19:22:47,731 INFO 15923 [egg-security] use dta middleware
+2019-09-10 19:22:47,731 INFO 15923 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:22:47,740 INFO 15923 [egg:core] dump config after load, 5ms
+2019-09-10 19:22:47,751 INFO 15923 [egg-watcher:application] watcher start success
+2019-09-10 19:22:47,755 INFO 15923 [egg:core] dump config after ready, 3ms
+2019-09-10 19:24:04,897 INFO 16028 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:24:04,920 INFO 16028 [egg-multipart] stream mode enable
+2019-09-10 19:24:04,950 INFO 16028 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:24:04,952 INFO 16028 [egg-security] use csrf middleware
+2019-09-10 19:24:04,952 INFO 16028 [egg-security] use methodnoallow middleware
+2019-09-10 19:24:04,952 INFO 16028 [egg-security] use noopen middleware
+2019-09-10 19:24:04,953 INFO 16028 [egg-security] use nosniff middleware
+2019-09-10 19:24:04,953 INFO 16028 [egg-security] use xssProtection middleware
+2019-09-10 19:24:04,953 INFO 16028 [egg-security] use xframe middleware
+2019-09-10 19:24:04,953 INFO 16028 [egg-security] use dta middleware
+2019-09-10 19:24:04,953 INFO 16028 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:24:04,962 INFO 16028 [egg:core] dump config after load, 5ms
+2019-09-10 19:24:04,972 INFO 16028 [egg-watcher:application] watcher start success
+2019-09-10 19:24:04,976 INFO 16028 [egg:core] dump config after ready, 3ms
+2019-09-10 19:24:29,456 INFO 16062 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:24:29,478 INFO 16062 [egg-multipart] stream mode enable
+2019-09-10 19:24:29,507 INFO 16062 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:24:29,509 INFO 16062 [egg-security] use csrf middleware
+2019-09-10 19:24:29,509 INFO 16062 [egg-security] use methodnoallow middleware
+2019-09-10 19:24:29,509 INFO 16062 [egg-security] use noopen middleware
+2019-09-10 19:24:29,510 INFO 16062 [egg-security] use nosniff middleware
+2019-09-10 19:24:29,510 INFO 16062 [egg-security] use xssProtection middleware
+2019-09-10 19:24:29,510 INFO 16062 [egg-security] use xframe middleware
+2019-09-10 19:24:29,510 INFO 16062 [egg-security] use dta middleware
+2019-09-10 19:24:29,510 INFO 16062 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:24:29,518 INFO 16062 [egg:core] dump config after load, 4ms
+2019-09-10 19:24:29,528 INFO 16062 [egg-watcher:application] watcher start success
+2019-09-10 19:24:29,532 INFO 16062 [egg:core] dump config after ready, 3ms
+2019-09-10 19:30:19,045 INFO 16607 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:30:19,071 INFO 16607 [egg-multipart] stream mode enable
+2019-09-10 19:30:19,118 INFO 16607 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:30:19,120 INFO 16607 [egg-security] use csrf middleware
+2019-09-10 19:30:19,120 INFO 16607 [egg-security] use methodnoallow middleware
+2019-09-10 19:30:19,121 INFO 16607 [egg-security] use noopen middleware
+2019-09-10 19:30:19,121 INFO 16607 [egg-security] use nosniff middleware
+2019-09-10 19:30:19,122 INFO 16607 [egg-security] use xssProtection middleware
+2019-09-10 19:30:19,122 INFO 16607 [egg-security] use xframe middleware
+2019-09-10 19:30:19,123 INFO 16607 [egg-security] use dta middleware
+2019-09-10 19:30:19,123 INFO 16607 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:30:19,132 INFO 16607 [egg:core] dump config after load, 5ms
+2019-09-10 19:30:19,142 INFO 16607 [egg-watcher:application] watcher start success
+2019-09-10 19:30:19,147 INFO 16607 [egg:core] dump config after ready, 4ms
+2019-09-10 19:37:52,792 INFO 17508 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:37:52,814 INFO 17508 [egg-multipart] stream mode enable
+2019-09-10 19:37:52,842 INFO 17508 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:37:52,843 INFO 17508 [egg-security] use csrf middleware
+2019-09-10 19:37:52,844 INFO 17508 [egg-security] use methodnoallow middleware
+2019-09-10 19:37:52,844 INFO 17508 [egg-security] use noopen middleware
+2019-09-10 19:37:52,844 INFO 17508 [egg-security] use nosniff middleware
+2019-09-10 19:37:52,845 INFO 17508 [egg-security] use xssProtection middleware
+2019-09-10 19:37:52,845 INFO 17508 [egg-security] use xframe middleware
+2019-09-10 19:37:52,845 INFO 17508 [egg-security] use dta middleware
+2019-09-10 19:37:52,845 INFO 17508 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:37:52,858 INFO 17508 [egg:core] dump config after load, 4ms
+2019-09-10 19:37:52,870 INFO 17508 [egg-watcher:application] watcher start success
+2019-09-10 19:37:52,874 INFO 17508 [egg:core] dump config after ready, 3ms
+2019-09-10 19:40:21,247 INFO 18052 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:40:21,280 INFO 18052 [egg-multipart] stream mode enable
+2019-09-10 19:40:21,328 INFO 18052 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:40:21,330 INFO 18052 [egg-security] use csrf middleware
+2019-09-10 19:40:21,330 INFO 18052 [egg-security] use methodnoallow middleware
+2019-09-10 19:40:21,330 INFO 18052 [egg-security] use noopen middleware
+2019-09-10 19:40:21,331 INFO 18052 [egg-security] use nosniff middleware
+2019-09-10 19:40:21,331 INFO 18052 [egg-security] use xssProtection middleware
+2019-09-10 19:40:21,331 INFO 18052 [egg-security] use xframe middleware
+2019-09-10 19:40:21,331 INFO 18052 [egg-security] use dta middleware
+2019-09-10 19:40:21,331 INFO 18052 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:40:21,344 INFO 18052 [egg:core] dump config after load, 7ms
+2019-09-10 19:40:21,363 INFO 18052 [egg-watcher:application] watcher start success
+2019-09-10 19:40:21,369 INFO 18052 [egg:core] dump config after ready, 4ms
+2019-09-10 19:43:21,800 INFO 18278 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:43:21,830 INFO 18278 [egg-multipart] stream mode enable
+2019-09-10 19:43:21,862 INFO 18278 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:43:21,864 INFO 18278 [egg-security] use csrf middleware
+2019-09-10 19:43:21,865 INFO 18278 [egg-security] use methodnoallow middleware
+2019-09-10 19:43:21,866 INFO 18278 [egg-security] use noopen middleware
+2019-09-10 19:43:21,866 INFO 18278 [egg-security] use nosniff middleware
+2019-09-10 19:43:21,866 INFO 18278 [egg-security] use xssProtection middleware
+2019-09-10 19:43:21,867 INFO 18278 [egg-security] use xframe middleware
+2019-09-10 19:43:21,867 INFO 18278 [egg-security] use dta middleware
+2019-09-10 19:43:21,867 INFO 18278 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:43:21,879 INFO 18278 [egg:core] dump config after load, 5ms
+2019-09-10 19:43:21,891 INFO 18278 [egg-watcher:application] watcher start success
+2019-09-10 19:43:21,895 INFO 18278 [egg:core] dump config after ready, 3ms
+2019-09-10 19:44:00,040 INFO 18339 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:44:00,064 INFO 18339 [egg-multipart] stream mode enable
+2019-09-10 19:44:00,098 INFO 18339 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:44:00,101 INFO 18339 [egg-security] use csrf middleware
+2019-09-10 19:44:00,102 INFO 18339 [egg-security] use methodnoallow middleware
+2019-09-10 19:44:00,102 INFO 18339 [egg-security] use noopen middleware
+2019-09-10 19:44:00,102 INFO 18339 [egg-security] use nosniff middleware
+2019-09-10 19:44:00,103 INFO 18339 [egg-security] use xssProtection middleware
+2019-09-10 19:44:00,103 INFO 18339 [egg-security] use xframe middleware
+2019-09-10 19:44:00,103 INFO 18339 [egg-security] use dta middleware
+2019-09-10 19:44:00,103 INFO 18339 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:44:00,113 INFO 18339 [egg:core] dump config after load, 4ms
+2019-09-10 19:44:00,123 INFO 18339 [egg-watcher:application] watcher start success
+2019-09-10 19:44:00,127 INFO 18339 [egg:core] dump config after ready, 3ms
+2019-09-10 19:44:04,832 INFO 18341 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:44:04,860 INFO 18341 [egg-multipart] stream mode enable
+2019-09-10 19:44:04,897 INFO 18341 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:44:04,899 INFO 18341 [egg-security] use csrf middleware
+2019-09-10 19:44:04,900 INFO 18341 [egg-security] use methodnoallow middleware
+2019-09-10 19:44:04,900 INFO 18341 [egg-security] use noopen middleware
+2019-09-10 19:44:04,900 INFO 18341 [egg-security] use nosniff middleware
+2019-09-10 19:44:04,901 INFO 18341 [egg-security] use xssProtection middleware
+2019-09-10 19:44:04,902 INFO 18341 [egg-security] use xframe middleware
+2019-09-10 19:44:04,902 INFO 18341 [egg-security] use dta middleware
+2019-09-10 19:44:04,903 INFO 18341 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:44:04,913 INFO 18341 [egg:core] dump config after load, 5ms
+2019-09-10 19:44:04,926 INFO 18341 [egg-watcher:application] watcher start success
+2019-09-10 19:44:04,930 INFO 18341 [egg:core] dump config after ready, 3ms
+2019-09-10 19:44:09,309 INFO 18342 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:44:09,331 INFO 18342 [egg-multipart] stream mode enable
+2019-09-10 19:44:09,360 INFO 18342 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:44:09,361 INFO 18342 [egg-security] use csrf middleware
+2019-09-10 19:44:09,362 INFO 18342 [egg-security] use methodnoallow middleware
+2019-09-10 19:44:09,362 INFO 18342 [egg-security] use noopen middleware
+2019-09-10 19:44:09,362 INFO 18342 [egg-security] use nosniff middleware
+2019-09-10 19:44:09,363 INFO 18342 [egg-security] use xssProtection middleware
+2019-09-10 19:44:09,363 INFO 18342 [egg-security] use xframe middleware
+2019-09-10 19:44:09,363 INFO 18342 [egg-security] use dta middleware
+2019-09-10 19:44:09,363 INFO 18342 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:44:09,371 INFO 18342 [egg:core] dump config after load, 4ms
+2019-09-10 19:44:09,380 INFO 18342 [egg-watcher:application] watcher start success
+2019-09-10 19:44:09,384 INFO 18342 [egg:core] dump config after ready, 2ms
+2019-09-10 19:44:17,782 INFO 18365 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:44:17,805 INFO 18365 [egg-multipart] stream mode enable
+2019-09-10 19:44:17,834 INFO 18365 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:44:17,835 INFO 18365 [egg-security] use csrf middleware
+2019-09-10 19:44:17,836 INFO 18365 [egg-security] use methodnoallow middleware
+2019-09-10 19:44:17,836 INFO 18365 [egg-security] use noopen middleware
+2019-09-10 19:44:17,836 INFO 18365 [egg-security] use nosniff middleware
+2019-09-10 19:44:17,836 INFO 18365 [egg-security] use xssProtection middleware
+2019-09-10 19:44:17,837 INFO 18365 [egg-security] use xframe middleware
+2019-09-10 19:44:17,837 INFO 18365 [egg-security] use dta middleware
+2019-09-10 19:44:17,837 INFO 18365 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:44:17,844 INFO 18365 [egg:core] dump config after load, 4ms
+2019-09-10 19:44:17,853 INFO 18365 [egg-watcher:application] watcher start success
+2019-09-10 19:44:17,857 INFO 18365 [egg:core] dump config after ready, 3ms
+2019-09-10 19:44:43,127 INFO 18397 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:44:43,153 INFO 18397 [egg-multipart] stream mode enable
+2019-09-10 19:44:43,185 INFO 18397 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:44:43,187 INFO 18397 [egg-security] use csrf middleware
+2019-09-10 19:44:43,187 INFO 18397 [egg-security] use methodnoallow middleware
+2019-09-10 19:44:43,188 INFO 18397 [egg-security] use noopen middleware
+2019-09-10 19:44:43,188 INFO 18397 [egg-security] use nosniff middleware
+2019-09-10 19:44:43,188 INFO 18397 [egg-security] use xssProtection middleware
+2019-09-10 19:44:43,188 INFO 18397 [egg-security] use xframe middleware
+2019-09-10 19:44:43,189 INFO 18397 [egg-security] use dta middleware
+2019-09-10 19:44:43,189 INFO 18397 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:44:43,201 INFO 18397 [egg:core] dump config after load, 3ms
+2019-09-10 19:44:43,210 INFO 18397 [egg-watcher:application] watcher start success
+2019-09-10 19:44:43,214 INFO 18397 [egg:core] dump config after ready, 2ms
+2019-09-10 19:46:08,233 INFO 18494 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:46:08,258 INFO 18494 [egg-multipart] stream mode enable
+2019-09-10 19:46:08,289 INFO 18494 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:46:08,291 INFO 18494 [egg-security] use csrf middleware
+2019-09-10 19:46:08,291 INFO 18494 [egg-security] use methodnoallow middleware
+2019-09-10 19:46:08,291 INFO 18494 [egg-security] use noopen middleware
+2019-09-10 19:46:08,292 INFO 18494 [egg-security] use nosniff middleware
+2019-09-10 19:46:08,292 INFO 18494 [egg-security] use xssProtection middleware
+2019-09-10 19:46:08,292 INFO 18494 [egg-security] use xframe middleware
+2019-09-10 19:46:08,293 INFO 18494 [egg-security] use dta middleware
+2019-09-10 19:46:08,293 INFO 18494 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:46:08,307 INFO 18494 [egg:core] dump config after load, 4ms
+2019-09-10 19:46:08,319 INFO 18494 [egg-watcher:application] watcher start success
+2019-09-10 19:46:08,324 INFO 18494 [egg:core] dump config after ready, 4ms
+2019-09-10 19:48:33,801 INFO 18930 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:48:33,825 INFO 18930 [egg-multipart] stream mode enable
+2019-09-10 19:48:33,857 INFO 18930 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:48:33,859 INFO 18930 [egg-security] use csrf middleware
+2019-09-10 19:48:33,859 INFO 18930 [egg-security] use methodnoallow middleware
+2019-09-10 19:48:33,860 INFO 18930 [egg-security] use noopen middleware
+2019-09-10 19:48:33,860 INFO 18930 [egg-security] use nosniff middleware
+2019-09-10 19:48:33,860 INFO 18930 [egg-security] use xssProtection middleware
+2019-09-10 19:48:33,860 INFO 18930 [egg-security] use xframe middleware
+2019-09-10 19:48:33,861 INFO 18930 [egg-security] use dta middleware
+2019-09-10 19:48:33,861 INFO 18930 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:48:33,870 INFO 18930 [egg:core] dump config after load, 5ms
+2019-09-10 19:48:33,884 INFO 18930 [egg-watcher:application] watcher start success
+2019-09-10 19:48:33,890 INFO 18930 [egg:core] dump config after ready, 3ms
+2019-09-10 19:52:17,533 INFO 30078 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:52:17,561 INFO 30078 [egg-multipart] stream mode enable
+2019-09-10 19:52:17,613 INFO 30078 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:52:17,614 INFO 30078 [egg-security] use csrf middleware
+2019-09-10 19:52:17,615 INFO 30078 [egg-security] use methodnoallow middleware
+2019-09-10 19:52:17,616 INFO 30078 [egg-security] use noopen middleware
+2019-09-10 19:52:17,616 INFO 30078 [egg-security] use nosniff middleware
+2019-09-10 19:52:17,616 INFO 30078 [egg-security] use xssProtection middleware
+2019-09-10 19:52:17,617 INFO 30078 [egg-security] use xframe middleware
+2019-09-10 19:52:17,617 INFO 30078 [egg-security] use dta middleware
+2019-09-10 19:52:17,617 INFO 30078 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:52:17,627 INFO 30078 [egg:core] dump config after load, 4ms
+2019-09-10 19:52:17,637 INFO 30078 [egg-watcher:application] watcher start success
+2019-09-10 19:52:17,641 INFO 30078 [egg:core] dump config after ready, 3ms
+2019-09-10 19:52:31,675 INFO 30083 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:52:31,699 INFO 30083 [egg-multipart] stream mode enable
+2019-09-10 19:52:31,730 INFO 30083 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:52:31,732 INFO 30083 [egg-security] use csrf middleware
+2019-09-10 19:52:31,732 INFO 30083 [egg-security] use methodnoallow middleware
+2019-09-10 19:52:31,732 INFO 30083 [egg-security] use noopen middleware
+2019-09-10 19:52:31,733 INFO 30083 [egg-security] use nosniff middleware
+2019-09-10 19:52:31,733 INFO 30083 [egg-security] use xssProtection middleware
+2019-09-10 19:52:31,733 INFO 30083 [egg-security] use xframe middleware
+2019-09-10 19:52:31,734 INFO 30083 [egg-security] use dta middleware
+2019-09-10 19:52:31,734 INFO 30083 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:52:31,742 INFO 30083 [egg:core] dump config after load, 4ms
+2019-09-10 19:52:31,752 INFO 30083 [egg-watcher:application] watcher start success
+2019-09-10 19:52:31,756 INFO 30083 [egg:core] dump config after ready, 3ms
+2019-09-10 19:52:51,951 INFO 30135 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:52:51,975 INFO 30135 [egg-multipart] stream mode enable
+2019-09-10 19:52:52,007 INFO 30135 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:52:52,008 INFO 30135 [egg-security] use csrf middleware
+2019-09-10 19:52:52,009 INFO 30135 [egg-security] use methodnoallow middleware
+2019-09-10 19:52:52,009 INFO 30135 [egg-security] use noopen middleware
+2019-09-10 19:52:52,010 INFO 30135 [egg-security] use nosniff middleware
+2019-09-10 19:52:52,010 INFO 30135 [egg-security] use xssProtection middleware
+2019-09-10 19:52:52,010 INFO 30135 [egg-security] use xframe middleware
+2019-09-10 19:52:52,010 INFO 30135 [egg-security] use dta middleware
+2019-09-10 19:52:52,010 INFO 30135 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:52:52,019 INFO 30135 [egg:core] dump config after load, 3ms
+2019-09-10 19:52:52,028 INFO 30135 [egg-watcher:application] watcher start success
+2019-09-10 19:52:52,033 INFO 30135 [egg:core] dump config after ready, 3ms
+2019-09-10 19:53:25,135 INFO 30171 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:53:25,159 INFO 30171 [egg-multipart] stream mode enable
+2019-09-10 19:53:25,190 INFO 30171 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:53:25,192 INFO 30171 [egg-security] use csrf middleware
+2019-09-10 19:53:25,192 INFO 30171 [egg-security] use methodnoallow middleware
+2019-09-10 19:53:25,192 INFO 30171 [egg-security] use noopen middleware
+2019-09-10 19:53:25,193 INFO 30171 [egg-security] use nosniff middleware
+2019-09-10 19:53:25,193 INFO 30171 [egg-security] use xssProtection middleware
+2019-09-10 19:53:25,193 INFO 30171 [egg-security] use xframe middleware
+2019-09-10 19:53:25,193 INFO 30171 [egg-security] use dta middleware
+2019-09-10 19:53:25,193 INFO 30171 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:53:25,202 INFO 30171 [egg:core] dump config after load, 5ms
+2019-09-10 19:53:25,212 INFO 30171 [egg-watcher:application] watcher start success
+2019-09-10 19:53:25,216 INFO 30171 [egg:core] dump config after ready, 3ms
+2019-09-10 19:53:42,591 INFO 30180 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:53:42,618 INFO 30180 [egg-multipart] stream mode enable
+2019-09-10 19:53:42,657 INFO 30180 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:53:42,659 INFO 30180 [egg-security] use csrf middleware
+2019-09-10 19:53:42,660 INFO 30180 [egg-security] use methodnoallow middleware
+2019-09-10 19:53:42,660 INFO 30180 [egg-security] use noopen middleware
+2019-09-10 19:53:42,661 INFO 30180 [egg-security] use nosniff middleware
+2019-09-10 19:53:42,661 INFO 30180 [egg-security] use xssProtection middleware
+2019-09-10 19:53:42,661 INFO 30180 [egg-security] use xframe middleware
+2019-09-10 19:53:42,662 INFO 30180 [egg-security] use dta middleware
+2019-09-10 19:53:42,662 INFO 30180 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:53:42,671 INFO 30180 [egg:core] dump config after load, 5ms
+2019-09-10 19:53:42,684 INFO 30180 [egg-watcher:application] watcher start success
+2019-09-10 19:53:42,690 INFO 30180 [egg:core] dump config after ready, 4ms
+2019-09-10 19:53:59,474 INFO 30225 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:53:59,496 INFO 30225 [egg-multipart] stream mode enable
+2019-09-10 19:53:59,526 INFO 30225 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:53:59,528 INFO 30225 [egg-security] use csrf middleware
+2019-09-10 19:53:59,528 INFO 30225 [egg-security] use methodnoallow middleware
+2019-09-10 19:53:59,528 INFO 30225 [egg-security] use noopen middleware
+2019-09-10 19:53:59,529 INFO 30225 [egg-security] use nosniff middleware
+2019-09-10 19:53:59,529 INFO 30225 [egg-security] use xssProtection middleware
+2019-09-10 19:53:59,529 INFO 30225 [egg-security] use xframe middleware
+2019-09-10 19:53:59,529 INFO 30225 [egg-security] use dta middleware
+2019-09-10 19:53:59,529 INFO 30225 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:53:59,538 INFO 30225 [egg:core] dump config after load, 5ms
+2019-09-10 19:53:59,547 INFO 30225 [egg-watcher:application] watcher start success
+2019-09-10 19:53:59,551 INFO 30225 [egg:core] dump config after ready, 2ms
+2019-09-10 19:54:54,606 INFO 30300 [egg:logger] init all loggers with options: {"dir":"/Users/abwu/sendbox/egg-example/logs/egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-09-10 19:54:54,628 INFO 30300 [egg-multipart] stream mode enable
+2019-09-10 19:54:54,659 INFO 30300 [egg-static] starting static serve /public/ -> /Users/abwu/sendbox/egg-example/app/public
+2019-09-10 19:54:54,661 INFO 30300 [egg-security] use csrf middleware
+2019-09-10 19:54:54,661 INFO 30300 [egg-security] use methodnoallow middleware
+2019-09-10 19:54:54,661 INFO 30300 [egg-security] use noopen middleware
+2019-09-10 19:54:54,662 INFO 30300 [egg-security] use nosniff middleware
+2019-09-10 19:54:54,662 INFO 30300 [egg-security] use xssProtection middleware
+2019-09-10 19:54:54,662 INFO 30300 [egg-security] use xframe middleware
+2019-09-10 19:54:54,662 INFO 30300 [egg-security] use dta middleware
+2019-09-10 19:54:54,662 INFO 30300 [egg-security] compose 7 middlewares into one security middleware
+2019-09-10 19:54:54,670 INFO 30300 [egg:core] dump config after load, 4ms
+2019-09-10 19:54:54,680 INFO 30300 [egg-watcher:application] watcher start success
+2019-09-10 19:54:54,685 INFO 30300 [egg:core] dump config after ready, 3ms
+2019-09-10 23:59:59,966 INFO 30300 [egg-logrotator] clean all log before 31 days
+2019-09-11 00:00:00,960 INFO 30300 [egg-logrotator] broadcast log-reload
+2019-09-11 00:00:00,960 INFO 30300 [egg-logrotator] rotate files success by DayRotator, files ["/Users/abwu/sendbox/egg-example/logs/egg-example/common-error.log -> /Users/abwu/sendbox/egg-example/logs/egg-example/common-error.log.2019-09-10","/Users/abwu/sendbox/egg-example/logs/egg-example/egg-example-web.log -> /Users/abwu/sendbox/egg-example/logs/egg-example/egg-example-web.log.2019-09-10","/Users/abwu/sendbox/egg-example/logs/egg-example/egg-web.log -> /Users/abwu/sendbox/egg-example/logs/egg-example/egg-web.log.2019-09-10","/Users/abwu/sendbox/egg-example/logs/egg-example/egg-schedule.log -> /Users/abwu/sendbox/egg-example/logs/egg-example/egg-schedule.log.2019-09-10","/Users/abwu/sendbox/egg-example/logs/egg-example/egg-agent.log -> /Users/abwu/sendbox/egg-example/logs/egg-example/egg-agent.log.2019-09-10"]

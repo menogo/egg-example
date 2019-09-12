@@ -1,0 +1,126 @@
+2019-09-10 17:05:50,791 INFO 2355 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 17:05:50,791 INFO 2355 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 17:05:50,791 INFO 2355 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 17:05:50,873 INFO 2355 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 41049130ms at 2019-09-11 04:30:00.003
+2019-09-10 17:05:50,873 INFO 2355 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 24849127ms at 2019-09-11 00:00:00.000
+2019-09-10 17:05:50,874 INFO 2355 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 24850127ms at 2019-09-11 00:00:01.001
+2019-09-10 17:11:09,148 INFO 2885 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 17:11:09,148 INFO 2885 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 17:11:09,148 INFO 2885 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 17:21:04,565 INFO 4355 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 17:21:04,565 INFO 4355 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 17:21:04,565 INFO 4355 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 18:55:56,424 INFO 12175 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 18:55:56,424 INFO 12175 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 18:55:56,424 INFO 12175 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 18:58:23,720 INFO 12417 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 18:58:23,720 INFO 12417 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 18:58:23,720 INFO 12417 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 18:59:13,803 INFO 12514 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 18:59:13,803 INFO 12514 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 18:59:13,803 INFO 12514 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:19:22,602 INFO 15519 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 33037402ms at 2019-09-11 04:30:00.004
+2019-09-10 19:19:22,603 INFO 15519 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 16837398ms at 2019-09-11 00:00:00.001
+2019-09-10 19:19:22,603 INFO 15519 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 16838397ms at 2019-09-11 00:00:01.000
+2019-09-10 19:19:22,513 INFO 15520 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:19:22,513 INFO 15520 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:19:22,513 INFO 15520 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:20:12,630 INFO 15594 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:20:12,630 INFO 15594 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:20:12,630 INFO 15594 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:20:38,690 INFO 15729 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:20:38,690 INFO 15729 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:20:38,690 INFO 15729 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:20:39,370 INFO 15730 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:20:39,370 INFO 15730 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:20:39,370 INFO 15730 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:21:10,640 INFO 15761 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:21:10,640 INFO 15761 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:21:10,640 INFO 15761 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:21:31,482 INFO 15791 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:21:31,482 INFO 15791 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:21:31,482 INFO 15791 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:22:37,356 INFO 15888 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:22:37,356 INFO 15888 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:22:37,356 INFO 15888 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:22:47,048 INFO 15922 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:22:47,049 INFO 15922 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:22:47,049 INFO 15922 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:22:47,692 INFO 15923 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:22:47,692 INFO 15923 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:22:47,692 INFO 15923 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:24:04,920 INFO 16028 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:24:04,920 INFO 16028 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:24:04,920 INFO 16028 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:24:29,478 INFO 16062 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:24:29,478 INFO 16062 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:24:29,478 INFO 16062 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:30:19,070 INFO 16607 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:30:19,070 INFO 16607 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:30:19,070 INFO 16607 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:37:52,881 INFO 17497 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 31927123ms at 2019-09-11 04:30:00.004
+2019-09-10 19:37:52,881 INFO 17497 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15727119ms at 2019-09-11 00:00:00.000
+2019-09-10 19:37:52,881 INFO 17497 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15728119ms at 2019-09-11 00:00:01.000
+2019-09-10 19:37:52,813 INFO 17508 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:37:52,813 INFO 17508 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:37:52,813 INFO 17508 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:40:21,377 INFO 18050 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 31778627ms at 2019-09-11 04:30:00.004
+2019-09-10 19:40:21,377 INFO 18050 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15578623ms at 2019-09-11 00:00:00.000
+2019-09-10 19:40:21,378 INFO 18050 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15579623ms at 2019-09-11 00:00:01.001
+2019-09-10 19:40:21,280 INFO 18052 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:40:21,280 INFO 18052 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:40:21,280 INFO 18052 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:43:21,829 INFO 18278 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:43:21,829 INFO 18278 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:43:21,829 INFO 18278 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:44:00,063 INFO 18339 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:44:00,063 INFO 18339 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:44:00,063 INFO 18339 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:44:04,859 INFO 18341 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:44:04,859 INFO 18341 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:44:04,859 INFO 18341 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:44:09,331 INFO 18342 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:44:09,331 INFO 18342 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:44:09,331 INFO 18342 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:44:17,804 INFO 18365 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:44:17,804 INFO 18365 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:44:17,804 INFO 18365 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:44:43,152 INFO 18397 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:44:43,152 INFO 18397 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:44:43,152 INFO 18397 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:46:08,258 INFO 18494 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:46:08,258 INFO 18494 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:46:08,258 INFO 18494 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:48:33,896 INFO 18929 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 31286107ms at 2019-09-11 04:30:00.003
+2019-09-10 19:48:33,897 INFO 18929 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 15086103ms at 2019-09-11 00:00:00.000
+2019-09-10 19:48:33,897 INFO 18929 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 15087103ms at 2019-09-11 00:00:01.000
+2019-09-10 19:48:33,824 INFO 18930 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:48:33,824 INFO 18930 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:48:33,824 INFO 18930 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:52:17,560 INFO 30078 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:52:17,560 INFO 30078 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:52:17,560 INFO 30078 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:52:31,698 INFO 30083 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:52:31,698 INFO 30083 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:52:31,698 INFO 30083 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:52:51,974 INFO 30135 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:52:51,974 INFO 30135 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:52:51,974 INFO 30135 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:53:25,158 INFO 30171 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:53:25,158 INFO 30171 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:53:25,158 INFO 30171 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:53:42,617 INFO 30180 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:53:42,617 INFO 30180 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:53:42,617 INFO 30180 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:53:59,496 INFO 30225 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:53:59,496 INFO 30225 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:53:59,496 INFO 30225 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 19:54:54,628 INFO 30300 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-09-10 19:54:54,628 INFO 30300 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-09-10 19:54:54,628 INFO 30300 [egg-schedule]: register schedule /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-09-10 23:59:59,956 INFO 30300 [Job#15681311999563754974406579781] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2019-09-10 23:59:59,966 INFO 30300 [Job#15681311999563754974406579781] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 9ms
+2019-09-10 23:59:59,958 INFO 18929 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400044ms at 2019-09-12 00:00:00.002
+2019-09-11 00:00:00,957 INFO 30300 [Job#15681312009573754984419034701] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-09-11 00:00:00,960 INFO 30300 [Job#15681312009573754984419034701] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 3ms
+2019-09-11 00:00:00,959 INFO 18929 [Timer] /Users/abwu/sendbox/egg-example/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400043ms at 2019-09-12 00:00:01.002
